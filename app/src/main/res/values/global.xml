@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--4.0颜色标注-->
+    <color name="V4_Z1">#eb5b58</color>
+    <color name="V4_Z2">#cd4d4b</color>
+    <color name="V4_Z3">#faacab</color>
+
+    <color name="V4_F1">#454545</color>
+    <color name="V4_F2">#909090</color>
+    <color name="V4_F3">#c9c9c9</color>
+    <color name="V4_F4">#eaeaea</color>
+    <color name="V4_F5">#f9f9f9</color>
+    <color name="V4_F6_4">#ffffff</color>
+
+    <color name="V4_F11">#f88c52</color>
+    <color name="V4_F12">#f3ac1f</color>
+    <color name="V4_F13">#80b692</color>
+    <color name="V4_F14">#638dd5</color>
+    <color name="V4_F15">#9282c4</color>
+
+
+
+
+    <!--4.0文字style-->
+
+
+    <!--<<<<10sp>>>>-->
+    <style name="font_style_10">
+        <item name="android:textColor">@color/V4_F1</item>
+        <item name="android:textSize">@dimen/font_10</item>
+    </style>
+
+    <style name="font_style_10_color">
+        <item name="android:textColor">@color/V4_Z1</item>
+        <item name="android:textSize">@dimen/font_10</item>
+    </style>
+
+
+    <!--<<<<12sp>>>>-->
+    <style name="font_style_12">
+        <item name="android:textColor">@color/V4_Z1</item>
+        <item name="android:textSize">@dimen/font_10</item>
+    </style>
+
+
+    <!--<<<<14sp>>>>-->
+    <style name="font_style_14_color">
+        <item name="android:textColor">@color/V4_Z1</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <style name="font_style_14_disable">
+        <item name="android:textColor">@color/V4_Z3</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <style name="font_style_14">
+        <item name="android:textColor">@color/V4_F1</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <!--文字段落，1.5倍行距-->
+    <style name="font_style_14_section">
+        <item name="android:textColor">@color/V4_F1</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+
+    <!--<<<<16sp>>>>-->
+    <style name="font_style_16">
+        <item name="android:textColor">@color/V4_F1</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <style name="font_style_16_color">
+        <item name="android:textColor">@color/V4_Z1</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <style name="font_style_16_disable">
+        <item name="android:textColor">@color/V4_Z3</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <!--文字段落，1.5倍行距-->
+    <style name="font_style_16_section">
+        <item name="android:textColor">@color/V4_F1</item>
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+
+    <!--<<<<18sp>>>>-->
+    <style name="font_style_18">
+        <item name="android:textColor">@color/V4_F1</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <!--文字段落，1.5倍行距-->
+    <style name="font_style_18_section">
+        <item name="android:textColor">@color/V4_F1</item>
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+
+    <!--<<<<20sp>>>>-->
+    <style name="font_style_20">
+        <item name="android:textColor">@color/V4_F1</item>
+        <item name="android:textSize">@dimen/font_20</item>
+    </style>
+
+
+    <!--<<<<28sp>>>>-->
+    <style name="font_style_28">
+        <item name="android:textColor">@color/V4_F1</item>
+        <item name="android:textSize">@dimen/font_28</item>
+    </style>
+
+
+    <!--4.0文字规格-->
+    <dimen name="font_10">10sp</dimen>
+    <dimen name="font_12">12sp</dimen>
+    <dimen name="font_14">14sp</dimen>
+    <dimen name="font_16">16sp</dimen>
+    <dimen name="font_18">18sp</dimen>
+    <dimen name="font_20">20sp</dimen>
+    <dimen name="font_28">28sp</dimen>
+
+    <!--4.0距离-->
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+
+
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

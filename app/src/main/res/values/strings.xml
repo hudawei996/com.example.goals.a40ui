@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">4.0UI</string>
+    <string name="title_activity_sunshine_community">SunshineCommunityActivity</string>
+    <string name="transition_book_img">transition_book_img</string>
+    <string name="transition_news_img">transition_news_img</string>
+    <string name="reporting_progress">报事处理进度</string>
+    <string name="owner_reporting_things">业主报事</string>
+    <string name="empty_data">暂无数据</string>
+    <string name="empty_comment">暂无评论</string>
+    <string name="comment">评价</string>
+    <string name="service_team">服务团队</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
