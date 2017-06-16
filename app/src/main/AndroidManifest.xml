@@ -9,9 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:theme="@style/DrawerLayoutTheme">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -19,8 +17,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".BottomNavigationActivity"
-            android:label="@string/title_activity_bottom_navigation">
+            android:name=".SunshineActivity"
+            android:theme="@style/DrawerLayoutTheme">
+        </activity>
+        <activity android:name=".MineActivity">
+        </activity>
+        <activity android:name=".MineInfoActivity">
         </activity>
     </application>
 

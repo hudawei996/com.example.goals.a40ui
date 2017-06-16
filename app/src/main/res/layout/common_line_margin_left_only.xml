@@ -2,12 +2,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/V4_F1"
+    android:background="@color/V4_F3"
     android:paddingLeft="15dp">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="@color/V4_F1" />
+        android:background="@color/V4_F5" />
 
 </RelativeLayout>

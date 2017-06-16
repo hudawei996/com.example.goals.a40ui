@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/V4_F6_4"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/llTopUserInfor"
+            layout="@layout/block_mine_personal_info"/>
+
+
+        <include layout="@layout/common_space_gray_up_bottom_line"/>
+
+        <!--TODO 新增我的订单入口-->
+        <RelativeLayout
+            android:id="@+id/rlMyOrders"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_48"
+            android:background="@color/V4_F5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/mine_my_orders"
+                android:textColor="@color/V4_F1"
+                android:textSize="@dimen/font_16"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:src="@mipmap/go"/>
+
+        </RelativeLayout>
+
+        <!-- 我的生鲜：需要随着房屋的参数隐藏或者显示-->
+        <LinearLayout
+            android:id="@+id/llMyFreshLineAndBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include layout="@layout/common_line_margin_left_only"/>
+
+            <RelativeLayout
+                android:id="@+id/rlMyFresh"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_48"
+                android:background="@color/V4_F5">
+
+                <TextView
+                    android:id="@+id/tvMyFreshItemName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:text="@string/mine_my_fresh"
+                    android:textColor="@color/V4_F1"
+                    android:textSize="@dimen/font_16"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:src="@mipmap/go"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!-- 新的我的一卡通：需要随着房屋的参数隐藏或者显示-->
+        <LinearLayout
+            android:id="@+id/llMyCardsLineAndBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include layout="@layout/common_line_margin_left_only"/>
+
+            <RelativeLayout
+                android:id="@+id/rlMyCards"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_48"
+                android:background="@color/V4_F5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:text="@string/mine_my_cards"
+                    android:textColor="@color/V4_F1"
+                    android:textSize="@dimen/font_16"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:src="@mipmap/go"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!-- 新的我的优惠券：显示我的优惠券列表和详情页面-->
+        <LinearLayout
+            android:id="@+id/llMyCouponLineAndBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/common_line_margin_left_only"/>
+
+            <RelativeLayout
+                android:id="@+id/rlMyCoupons"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_48"
+                android:background="@color/V4_F5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:text="@string/mine_my_coupons"
+                    android:textColor="@color/V4_F1"
+                    android:textSize="@dimen/font_16"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:src="@mipmap/go"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <include layout="@layout/common_space_gray_up_bottom_line"/>
+
+        <!--我发表的主题-->
+        <RelativeLayout
+            android:id="@+id/rlMyTopic"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_48"
+            android:background="@color/V4_F5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/mine_my_topic"
+                android:textColor="@color/V4_F1"
+                android:textSize="@dimen/font_16"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:src="@mipmap/go"/>
+
+        </RelativeLayout>
+
+        <include layout="@layout/common_line_margin_left_only"/>
+
+        <!--我参加的主题-->
+        <RelativeLayout
+            android:id="@+id/rlMyJoinTopic"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_48"
+            android:background="@color/V4_F5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/mine_my_join_topic"
+                android:textColor="@color/V4_F1"
+                android:textSize="@dimen/font_16"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:src="@mipmap/go"/>
+
+        </RelativeLayout>
+
+        <include layout="@layout/common_line_margin_left_only"/>
+
+        <!--我参加的活动-->
+        <RelativeLayout
+            android:id="@+id/rlMyJoinActivity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_48"
+            android:background="@color/V4_F5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/mine_my_join_activity"
+                android:textColor="@color/V4_F1"
+                android:textSize="@dimen/font_16"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:src="@mipmap/go"/>
+
+        </RelativeLayout>
+
+        <include layout="@layout/common_space_gray_up_bottom_line"/>
+
+        <!--通知设置-->
+        <RelativeLayout
+            android:id="@+id/rlMyNoticeSet"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_48"
+            android:background="@color/V4_F5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/mine_notices_set"
+                android:textColor="@color/V4_F1"
+                android:textSize="@dimen/font_16"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:src="@mipmap/go"/>
+
+        </RelativeLayout>
+
+        <include layout="@layout/common_line_margin_left_only"/>
+
+        <!--关于我们-->
+        <RelativeLayout
+            android:id="@+id/rlAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_48"
+            android:background="@color/V4_F5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/mine_about_us"
+                android:textColor="@color/V4_F1"
+                android:textSize="@dimen/font_16"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:src="@mipmap/go"/>
+
+        </RelativeLayout>
+
+        <include layout="@layout/common_line_margin_left_only"/>
+
+        <!--意见反馈-->
+        <RelativeLayout
+            android:id="@+id/rlfeedback"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_48"
+            android:background="@color/V4_F5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/mine_feedback"
+                android:textColor="@color/V4_F1"
+                android:textSize="@dimen/font_16"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:src="@mipmap/go"/>
+
+        </RelativeLayout>
+
+        <include layout="@layout/common_space_gray_up_bottom_line"/>
+
+        <!--退出-->
+        <LinearLayout
+            android:id="@+id/llRevoke"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_48"
+            android:background="@color/V4_F5"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/logout"
+                android:textColor="@color/V4_Z1"
+                android:textSize="@dimen/font_16"/>
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/llRevokeBottomLine"
+            layout="@layout/common_space_gray_up_bottom_line"/>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

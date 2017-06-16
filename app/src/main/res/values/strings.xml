@@ -13,4 +13,16 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="mine_my_orders">我的订单</string>
+    <string name="mine_my_fresh">我的生鲜</string>
+    <string name="mine_feedback">反馈</string>
+    <string name="mine_about_us">关于我们</string>
+    <string name="mine_my_join_activity">我参与的活动</string>
+    <string name="mine_notices_set">设置</string>
+    <string name="mine_my_join_topic">我参与的主题</string>
+    <string name="mine_my_topic">我发表的主题</string>
+    <string name="mine_my_coupons">我的优惠券</string>
+    <string name="mine_my_cards">我的一卡通</string>
+    <string name="logout">退出</string>
+    <string name="family_name">姓氏</string>
 </resources>
